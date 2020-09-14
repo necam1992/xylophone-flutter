@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audioplayers.dart';
 
-void main() => runApp(XylophoneApp());
+void main() => runApp(
+      XylophoneApp(),
+    );
 
 class XylophoneApp extends StatelessWidget {
   @override
